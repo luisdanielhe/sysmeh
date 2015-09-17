@@ -1,0 +1,18 @@
+{
+  "name": "Sysmeh",
+  "version": "0.0.1",
+  "description": "System history medicine",
+  "authors": [
+    "Luis Hernandez"
+  ],
+  "license": "MIIT",
+  "homepage": "http://sysmeh.hol.es/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor/bower_components/",
+    "test",
+    "tests"
+  ]
+}
