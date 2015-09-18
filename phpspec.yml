@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: Sysmeh
+        psr4_prefix: Sysmeh
         src_path: app

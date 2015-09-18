@@ -29,15 +29,15 @@
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-            <li class="header">HEADER</li>
+            <li class="header">Admin</li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="#"><span>Link</span></a></li>
-            <li><a href="#"><span>Another Link</span></a></li>
+            <li class="active"><a href="/admin"><span>Home</span></a></li>
+            <li><a href="/themes"><span>Theme</span></a></li>
             <li class="treeview">
-                <a href="#"><span>Multilevel</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <a href="#"><span>Master tables</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Link in level 2</a></li>
-                    <li><a href="#">Link in level 2</a></li>
+                    <li><a href="/clinics">Clinics</a></li>
+                    <li><a href="/cities">Cities</a></li>
                 </ul>
             </li>
         </ul><!-- /.sidebar-menu -->

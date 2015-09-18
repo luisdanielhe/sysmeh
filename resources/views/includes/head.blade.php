@@ -27,3 +27,4 @@
           apply the skin class to the body tag so the changes take effect.
     -->
     {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue.min.css") !!}
+    {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue-light.min.css") !!}

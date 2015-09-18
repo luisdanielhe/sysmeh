@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Sysmeh\Http\Controllers\Auth;
 
-use App\User;
+use Sysmeh\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Sysmeh\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

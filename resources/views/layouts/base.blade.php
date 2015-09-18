@@ -2,6 +2,7 @@
 <html lang='en'>
 <head>
     <title>@yield('title', 'Sysmeh')</title>
+    <link rel="icon" href="{{ asset('favicon.ico') }}">
     @include('includes.head')
 </head>
 <body class='skin-blue'>
@@ -17,7 +18,7 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    {{ $page_title or "Page Title" }}
+                    {{ $page_title or "sysmeh" }}
                     <small>{{ $page_description or null }}</small>
                 </h1>
                 <!-- You can dynamically generate breadcrumbs here -->

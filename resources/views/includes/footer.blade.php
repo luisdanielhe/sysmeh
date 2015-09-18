@@ -4,5 +4,5 @@
         Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>© Copyright 2015 <a href="#">Sysmeh</a>.</strong> All rights reserved.
+    <strong>© Copyright 2015 <a href="http://sysmeh.hol.es" target="_blank" >Sysmeh</a>.</strong> All rights reserved.
 </footer>
