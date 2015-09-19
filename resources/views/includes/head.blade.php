@@ -28,3 +28,7 @@
     -->
     {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue.min.css") !!}
     {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue-light.min.css") !!}
+    {{-- Materialize Bootstrap --}}
+
+    {!! HTML::style("/vendor/bower_components/bootstrap-material-design/dist/css/ripples.min.css") !!}
+

@@ -18,8 +18,8 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    {{ $page_title or "sysmeh" }}
-                    <small>{{ $page_description or null }}</small>
+                    [[ $page_title or "Home" ]]
+                    <small>[[ $page_description or "Esto es una descripcion por defecto si no se asigna que el front end debe ser en español y backend en ingles" ]]</small>
                 </h1>
                 <!-- You can dynamically generate breadcrumbs here -->
                 <ol class="breadcrumb">
@@ -49,7 +49,18 @@
     {!! HTML::script('/vendor/bower_components/admin-lte/bootstrap/js/bootstrap.min.js') !!}
     <!-- AdminLTE App -->
     {!! HTML::script('/vendor/bower_components/admin-lte/dist/js/app.min.js') !!}
+    <!-- Angular JS -->
+    {!! HTML::script('/vendor/bower_components/angular/angular.js') !!}
 
+    <!-- Materialize Bootstrap -->
+    {!! HTML::script('/vendor/bower_components/bootstrap-material-design/dist/js/ripples.min.js') !!}
+    {!! HTML::script('/vendor/bower_components/bootstrap-material-design/dist/js/material.min.js') !!}
+    <script>
+        $(document).ready(function() {
+            // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
           Both of these plugins are recommended to enhance the
           user experience -->

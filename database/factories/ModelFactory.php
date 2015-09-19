@@ -17,5 +17,14 @@ $factory->define(Sysmeh\User::class, function (Faker\Generator $faker) {
         'email' => $faker->email,
         'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
+        'role' => $faker->randomElement(['doctor','nurse'])
+    ];
+});
+
+$factory->define(Sysmeh\Theme::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->name,
+        'description' => $faker->sentence($nbWords = 12),
+        'active' => false,
     ];
 });

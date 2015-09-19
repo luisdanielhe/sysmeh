@@ -1,6 +1,6 @@
 <?php
 
-namespace Sysmeh\Http\Controllers\admin;
+namespace Sysmeh\Http\Controllers\MasterTables;
 
 use Illuminate\Http\Request;
 use Sysmeh\Http\Requests;
@@ -15,7 +15,7 @@ class ThemeController extends Controller
      */
     public function index()
     {
-        return view('admin.themes');
+        return view('mastertables.themes');
     }
 
     /**
