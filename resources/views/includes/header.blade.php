@@ -3,18 +3,18 @@
     <title>Sysmeh | Dashboard</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.2 -->
-    <link href="{{ asset("/vendor/bower_components/admin-lte/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="[[ asset("/vendor/bower_components/admin-lte/bootstrap/css/bootstrap.min.css") ]]" rel="stylesheet" type="text/css" />
     <!-- Font Awesome Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Ionicons -->
     <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
-    <link href="{{ asset("/vendor/bower_components/admin-lte/dist/css/AdminLTE.min.css")}}" rel="stylesheet" type="text/css" />
+    <link href="[[ asset("/vendor/bower_components/admin-lte/dist/css/AdminLTE.min.css")]]" rel="stylesheet" type="text/css" />
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link href="{{ asset("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue.min.css")}}" rel="stylesheet" type="text/css" />
+    <link href="[[ asset("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue.min.css")]]" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,7 +27,7 @@
 <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo"><b>Sysmeh</b> System</a>
+    <a href="/admin" class="logo"><b>Sysmeh</b> System</a>
 
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
@@ -54,7 +54,7 @@
                                     <a href="#">
                                         <div class="pull-left">
                                             <!-- User Image -->
-                                            <img src="{{ asset("/vendor/bower_components/admin-lte/dist/img/user2-160x160.jpg") }}" class="img-circle" alt="User Image"/>
+                                            <img src="[[ asset("/vendor/bower_components/admin-lte/dist/img/user2-160x160.jpg") ]]" class="img-circle" alt="User Image"/>
                                         </div>
                                         <!-- Message title and timestamp -->
                                         <h4>
@@ -133,14 +133,14 @@
                     <!-- Menu Toggle Button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <!-- The user image in the navbar-->
-                        <img src="{{ asset("/vendor/bower_components/admin-lte/dist/img/user2-160x160.jpg") }}" class="user-image" alt="User Image"/>
+                        <img src="[[ asset("/vendor/bower_components/admin-lte/dist/img/user2-160x160.jpg") ]]" class="user-image" alt="User Image"/>
                         <!-- hidden-xs hides the username on small devices so only the image appears. -->
                         <span class="hidden-xs">Alexander Pierce</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- The user image in the menu -->
                         <li class="user-header">
-                            <img src="{{ asset("/vendor/bower_components/admin-lte/dist/img/user2-160x160.jpg") }}" class="img-circle" alt="User Image" />
+                            <img src="[[ asset("/vendor/bower_components/admin-lte/dist/img/user2-160x160.jpg") ]]" class="img-circle" alt="User Image" />
                             <p>
                                 Alexander Pierce - Web Developer
                                 <small>Member since Nov. 2012</small>

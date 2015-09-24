@@ -15,20 +15,20 @@
     <meta name="twitter:domain" content="Sysmeh">
     <meta name="twitter:image" content="http://sysmeh.hol.es/wp-content/uploads/2015/04/SYSMEH-COLOR.jpg">
     <!-- Bootstrap 3.3.2 -->
-    {!! HTML::style("/vendor/bower_components/admin-lte/bootstrap/css/bootstrap.min.css") !!}
+    [!! HTML::style("/vendor/bower_components/admin-lte/bootstrap/css/bootstrap.min.css") !!]
     <!-- Font Awesome Icons -->
-    {!! HTML::style("/vendor/bower_components/font-awesome/css/font-awesome.min.css") !!}
+    [!! HTML::style("/vendor/bower_components/font-awesome/css/font-awesome.min.css") !!]
     <!-- Ionicons -->
-    {!! HTML::style("http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css") !!}
+    [!! HTML::style("http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css") !!]
     <!-- Theme style -->
-    {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/AdminLTE.min.css") !!}
+    [!! HTML::style("/vendor/bower_components/admin-lte/dist/css/AdminLTE.min.css") !!]
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue.min.css") !!}
-    {!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue-light.min.css") !!}
-    {{-- Materialize Bootstrap --}}
+    [!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue.min.css") !!]
+    [!! HTML::style("/vendor/bower_components/admin-lte/dist/css/skins/skin-blue-light.min.css") !!]
+    [[-- Materialize Bootstrap --]]
 
-    {!! HTML::style("/vendor/bower_components/bootstrap-material-design/dist/css/ripples.min.css") !!}
+    [!! HTML::style("/vendor/bower_components/bootstrap-material-design/dist/css/ripples.min.css") !!]
 

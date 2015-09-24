@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
     <title>@yield('title', 'Sysmeh')</title>
-    <link rel="icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" href="[[ asset('favicon.ico') ]]">
     @include('includes.head')
 </head>
 <body class='skin-blue'>
@@ -44,17 +44,18 @@
 
     <!-- REQUIRED JS SCRIPTS -->
     <!-- jQuery 2.1.4 -->
-    {!! HTML::script('/vendor/bower_components/admin-lte/plugins/jQuery/jQuery-2.1.4.min.js') !!}
+    [!! HTML::script('/vendor/bower_components/admin-lte/plugins/jQuery/jQuery-2.1.4.min.js') !!]
     <!-- Bootstrap 3.3.2 JS -->
-    {!! HTML::script('/vendor/bower_components/admin-lte/bootstrap/js/bootstrap.min.js') !!}
+    [!! HTML::script('/vendor/bower_components/admin-lte/bootstrap/js/bootstrap.min.js') !!]
     <!-- AdminLTE App -->
-    {!! HTML::script('/vendor/bower_components/admin-lte/dist/js/app.min.js') !!}
-    <!-- Angular JS -->
-    {!! HTML::script('/vendor/bower_components/angular/angular.js') !!}
-
+    [!! HTML::script('/vendor/bower_components/admin-lte/dist/js/app.min.js') !!]
     <!-- Materialize Bootstrap -->
-    {!! HTML::script('/vendor/bower_components/bootstrap-material-design/dist/js/ripples.min.js') !!}
-    {!! HTML::script('/vendor/bower_components/bootstrap-material-design/dist/js/material.min.js') !!}
+    [!! HTML::script('/vendor/bower_components/bootstrap-material-design/dist/js/ripples.min.js') !!]
+    [!! HTML::script('/vendor/bower_components/bootstrap-material-design/dist/js/material.min.js') !!]
+    <!-- Angular JS -->
+    [!! HTML::script('/vendor/bower_components/angular/angular.min.js') !!]
+    [!! HTML::script('/js/main.js') !!]
+
     <script>
         $(document).ready(function() {
             // This command is used to initialize some elements and make them work properly

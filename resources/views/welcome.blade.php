@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Sysmeh</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -33,13 +33,29 @@
             .title {
                 font-size: 96px;
             }
+            ul {
+                list-style: none;
+            }
+            li {
+
+            }
         </style>
-    </head>
-    <body>
+    </head >
+    <body ng-app="myApp">
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+            <div class="title">
+            <ul ng-controller="TodosController">
+                <li ng-repeat="todo in todos"> {{ todo.body }} </li>
+            </ul>
             </div>
+            <p>
+                <div ng-controller="DoubleController">
+                  Two times <input ng-model="num"> equals {{ double(num) }}
+                </div>
+            </p>
         </div>
+        [!! HTML::script('/vendor/bower_components/angular/angular.js') !!]
+        [!! HTML::script('/js/app.js') !!]
     </body>
 </html>
